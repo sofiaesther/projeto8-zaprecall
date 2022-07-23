@@ -1,0 +1,187 @@
+body{
+    background-color: #FB6B6B;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+body p{
+    font-weight: 300;
+}
+body h1{
+    font-family: 'Righteous';
+    font-size: 32px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    margin: 50px auto 60px auto;
+}
+.Top img{
+    width: 52px;
+}
+
+.QuestionClosedBox {
+    width: 300px;
+    height: 65px;
+    margin: 0 auto 15px auto;
+    border-radius: 3px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.QuestionClosedBox ion-icon{
+    font-size: 28px;
+}
+
+ion-icon{
+    visibility: visible;
+}
+.Bottom {
+    width: 100%;
+    padding: 10px;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: auto;
+    text-align: center;
+}
+.Bottom p{
+    width: 220px;
+    margin: auto;
+}
+.BottomEnd {
+    width: 100%;
+    padding: 10px;
+    height: 171px;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+}
+.BottomEnd p{
+    width: 220px;
+    margin: auto;
+}
+.QuestionResultCount {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    margin: auto;
+}
+.congratulations{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.redbg{
+    background-color: #FF3030;
+}
+.red{
+    color: #FF3030;
+}
+.yellowbg{
+    background-color: #FF922E;
+}
+.yellow{
+    color:#FF922E;
+}
+.greenbg{
+    background-color: #2FBE34;
+}
+.green{
+    color:#2FBE34;
+}
+.done{
+    text-decoration: line-through;
+}
+.QuestionOpenBox{
+    width: 300px;
+    height: 131px;
+    margin: 0 auto 15px auto;
+    border-radius: 3px;
+    background-color: #FFFFD4;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+.QuestionOpenBox ion-icon{
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    font-size: 36px;
+}
+.buttons{
+    width: 290px;
+    position: absolute;
+    bottom: 10px;
+    left:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonRemember{
+    width:90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.buttonRemember p{
+    color: #ffffff;
+}
+.InitialButtom{
+    margin: 30px auto 0 auto;
+    width: 250px;
+    height: 60px;
+    border: solid 2px;
+    border-color: #D70900;
+    border-radius: 3px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InitialButtom h2{
+    color:#D70900;
+}
+.Start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Start h1{
+    font-size: 46px;
+    color: #ffffff;
+    margin: auto;
+}
+.Start img{
+    width: 136px;
+    margin:148px auto 30px auto;
+}
